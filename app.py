@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the dataset
-df = pd.read_excel('/home/gaurav/FS/Xeon_work/Xeon_Consol.xlsx', header=None, skiprows=1)
+df = pd.read_excel('Xeon_Consol.xlsx', header=None, skiprows=1)
 column_names = [
     "Model", "Task", "Input Modal", "Optimizations", "ISV Story", "Model link", 
     "Parameter/Size", "Latency (Seconds)", "Percentage Improvement", "Core Affinity"
